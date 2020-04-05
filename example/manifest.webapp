@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "name": "Vanillai Sample",
+  "description": "An example app showing the Vanillai vanilla HTML/CSS/JS KaiOS UI toolkit.",
+  "type": "web",
+  "theme_color": "#ffffff",
+  "chrome": {
+    "statusbar": "overlap"
+  },
+  "launch_path": "/example.html",
+  "icons": {
+    "56": "/icons/vanillai_56.png",
+    "112": "/icons/vanillai_112.png"
+  },
+  "developer": {
+    "name": "jkelol111",
+    "url": "https://jkelol111.github.io/vanillai"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Vanillai Sample",
+      "subtitle": "For developers who wants to check out Vanillai.",
+      "description": "An example app showing the Vanillai vanilla HTML/CSS/JS KaiOS UI toolkit."
+    }
+  },
+  "default_locale": "en-US"
+}

@@ -1,0 +1,122 @@
+:root {
+  --theme-color: #8500DC;
+}
+
+.vanillai-root, .vanillai-root * {
+  font-family: 'Open Sans';
+  margin: 0;
+  padding: 0;
+}
+
+.vanillai-status-bar-chrome {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 27px;
+  background: var(--theme-color);
+}
+
+.vanillai-status-bar-header-app {
+  position: fixed;
+  top: 27px;
+  width: 100%;
+  height: 27px;
+  line-height: 27px;
+  background: var(--theme-color);
+  color: #ffffff;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.vanillai-status-bar-header-content {
+  width: 100%;
+  height: 27px;
+  line-height: 27px;
+  background: var(--theme-color);
+  color: #ffffff;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.vanillai-content-header-app {
+  position: fixed;
+  top: 54px;
+  bottom: 30px;
+  overflow: hidden;
+}
+
+.vanillai-content-header-content {
+  position: fixed;
+  top: 27px;
+  bottom: 30px;
+  overflow: hidden;
+}
+
+.vanillai-theme-content-light {
+  background: #ffffff;
+  color: #000000;
+}
+
+.vanillai-theme-content-dark {
+  background: #363636;
+  color: #ffffff;
+}
+
+.vanillai-overflow-all {
+  overflow: auto;
+}
+
+.vanillai-overflow-x {
+  overflow-x: auto;
+}
+
+.vanillai-overflow-y {
+  overflow-y: auto;
+}
+
+.vanillai-theme-softkeys-bar-light {
+  background: #dadada;
+  color: #000000;
+}
+
+.vanillai-theme-softkeys-bar-dark {
+  background: #000000;
+  color: #ffffff;
+}
+
+.vanillai-softkeys-bar {
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  bottom: 0px; 
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.vanillai-softkeys-bar * {
+  width: 33.3333333333%;
+  text-overflow: ellipsis;
+}
+
+.vanillai-softkeys-key-left {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: left;
+}
+
+.vanillai-softkeys-key-center {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.vanillai-softkeys-key-right {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: right;
+}
+
